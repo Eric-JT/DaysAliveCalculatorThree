@@ -1,3 +1,5 @@
+alert("You must change the dates manually in the code.");
+// Date Variables located at the end of the file
 
 function isLeapYear(year){
   /* Takes a single argument, year. Calculates whether or not
@@ -97,6 +99,7 @@ function daysBetweenDates(dateOne, dateTwo){
   return days;
 }
 
+/* Change theses dates*/
 var dateOne = [1989, 01, 24];
 var dateTwo = [2016, 12, 16];
 
