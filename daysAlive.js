@@ -1,6 +1,6 @@
 
 function isLeapYear(year){
-  /* Takes in a single parameter called year and calculates whether or not
+  /* Takes a single argument, year. Calculates whether or not
   the year is a Leap Year. Returns either true or false */
 
   if (year % 400 === 0){ return true; }
@@ -10,7 +10,7 @@ function isLeapYear(year){
 }
 
 function daysInMonth(year, month){
-  /* Takes in two parameters, year and month. checks how many days there
+  /* Takes two arguments, year and month. checks how many days there
   are in the current month. Returns number of days in month */
 
   var days = 0;
@@ -44,7 +44,7 @@ function daysInMonth(year, month){
 }
 
 function nextDay(date){
-  /* takes a single parameter called date. moves the date to the next
+  /* takes a single argument called date. moves the date to the next
   day. Returns the new date. */
 
   if (date[2] < daysInMonth(date[0], date[1])){
@@ -68,7 +68,7 @@ function nextDay(date){
 }
 
 function isDateBefore(dateOne, dateTwo){
-  /* Takes in two parameters, dateOne and dateTwo. Checks if dates
+  /* Takes two arguments, dateOne and dateTwo. Checks if dates
   are valid. Returns true or false */
 
   if (dateOne[0] < dateTwo[0]){
@@ -86,7 +86,7 @@ function isDateBefore(dateOne, dateTwo){
 }
 
 function daysBetweenDates(dateOne, dateTwo){
-  /* takes in two parameters, dateOne and dateTwo. calculates the number
+  /* takes two arguments, dateOne and dateTwo. calculates the number
   of days between dates. returns the number of days.*/
 
   var days = 0;
