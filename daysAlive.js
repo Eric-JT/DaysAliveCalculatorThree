@@ -44,7 +44,7 @@ function daysInMonth(year, month){
 }
 
 function nextDay(date){
-  /* takes a single argument called date. moves the date to the next
+  /* takes a single argument, date. moves the date to the next
   day. Returns the new date. */
 
   if (date[2] < daysInMonth(date[0], date[1])){
